@@ -5,7 +5,7 @@ public class NotificationService {
     public NotificationService(EmailService emailService){
         this.emailService = emailService;
     }
-    //Simula o emvio de uma notificação
+    //Simula o envio de uma notificação
     public boolean sendNotifications(String userEmail, String message){
         if (userEmail == null || message == null || message.isEmpty()){
             return false;
