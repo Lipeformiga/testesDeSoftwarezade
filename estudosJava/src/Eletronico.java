@@ -7,6 +7,8 @@ public class Eletronico extends Produtos{
 
     @Override
     public void calcularDesconto() {
-        this.preco *= 0.95;
+
     }
+
+
 }
