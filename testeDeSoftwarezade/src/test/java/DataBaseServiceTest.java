@@ -5,8 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class DataBaseServiceTest {
 
     private DatabaseService dbService = new DatabaseService();
-
-
+    
     @Test
     public void testSimulatedDatabaseConnected(){
         //Simular conexão
